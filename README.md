@@ -6,16 +6,12 @@ see (http://github.com/infracamp/kickstart) for more information.
 Document Index:
 
 - [Development Guide for this flavor](DEVELOPMENT.md)
-- [Dockerhub page](https://hub.docker.com/r/infracamp/kickstart-flavor-py3/)
-    - [Tags available](https://hub.docker.com/r/infracamp/kickstart-flavor-py3/tags/)
-    - [Build details](https://hub.docker.com/r/infracamp/kickstart-flavor-py3/builds/)
+- [Dockerhub page](https://hub.docker.com/r/infracamp/kickstart-flavor-datalytics/)
+    - [Tags available](https://hub.docker.com/r/infracamp/kickstart-flavor-datalytics/tags/)
+    - [Build details](https://hub.docker.com/r/infracamp/kickstart-flavor-datalytics/builds/)
 
 
 ## Container specific `.kick.yml`-directives
-
-| Key | Default | Description |
-|----------------|----------------|---------------------|
-|
 
 ## Installed Software
 
@@ -23,6 +19,7 @@ Document Index:
 - Flask
 - Jupyter (on [http://localhost:4000](http://localhost:4000) - without password / token)
 - R
+- RStudio (on [http://localhost:4200](http://localhost:4200) - user: "user" pass: "pass")
 
 
 
