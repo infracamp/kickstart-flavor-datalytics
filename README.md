@@ -11,26 +11,26 @@ Document Index:
     - [Build details](https://hub.docker.com/r/infracamp/kickstart-flavor-datalytics/builds/)
 
 
-## Container specific `.kick.yml`-directives
-
 ## Installed Software
 
+| Package | Url |
+|---------|-----|
+| **Jupyter** | [http://localhost:4000](http://localhost:4000)          |
+| **RStudio Server** | [http://localhost:4200](http://localhost:4200)   |
+
+
+- R
 - Python 3
 - Flask
-- Jupyter (on [http://localhost:4000](http://localhost:4000) - without password / token)
-- R
-- RStudio (on [http://localhost:4200](http://localhost:4200) - user: "user" pass: "pass")
+
+## Creating a new Project
+
+- Create and checkout an empty repository
+- Download and execute [`kickstart.sh`](https://infracamp.org/getting-started/) - let it create an empty .kick.yml
+- Change `from:`-Line in `.kick.yml` to `infracamp/kickstart-flavor-datalytics`
+- Create a `.gitignore` from [this preset](doc/gitignore.preset)
 
 
 
-## Runnin flask
 
-
-## Debugging the container
-
-### RStudio Server
-
-```
-sudo /usr/lib/rstudio-server/bin/rserver --server-daemonize=0
-```
 
