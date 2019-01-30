@@ -20,6 +20,8 @@ pip3 install pylint flask
 cd /tmp
 curl -o /tmp/rstudio-server.deb https://download2.rstudio.org/rstudio-server-1.1.463-amd64.deb
 gdebi -n /tmp/rstudio-server.deb
+rm /tmp/rstudio-server.deb
+
 
 ## Workaround of apparmor bug:
 echo "server-app-armor-enabled=0" >> /etc/rstudio/rserver.conf
