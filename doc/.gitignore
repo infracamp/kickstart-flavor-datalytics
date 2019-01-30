@@ -1,0 +1,9 @@
+#
+# Preset .gitignore file for kickstart-flavor-datalytics projects
+#
+
+/.rstudio/
+/.idea/
+
+
+

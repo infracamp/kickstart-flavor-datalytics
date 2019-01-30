@@ -13,22 +13,21 @@ Document Index:
 
 ## Installed Software
 
-| Package | Url |
-|---------|-----|
-| **Jupyter** | [http://localhost:4000](http://localhost:4000)          |
-| **RStudio Server** | [http://localhost:4200](http://localhost:4200)   |
+| Package               | Url                                              |
+|-----------------------|--------------------------------------------------|
+| **Jupyter**           | [http://localhost:4000](http://localhost:4000)   |
+| **RStudio Server**    | [http://localhost:4200](http://localhost:4200)   |
 
-
-- R
-- Python 3
-- Flask
+- *R 3.4.4*
+- *Python 3.6.7*
+- *Flask*
 
 ## Creating a new Project
 
 - Create and checkout an empty repository
 - Download and execute [`kickstart.sh`](https://infracamp.org/getting-started/) - let it create an empty .kick.yml
 - Change `from:`-Line in `.kick.yml` to `infracamp/kickstart-flavor-datalytics`
-- Create a `.gitignore` from [this preset](doc/gitignore.preset)
+- Create a `.gitignore` from [this preset](doc/.gitignore)
 
 
 
