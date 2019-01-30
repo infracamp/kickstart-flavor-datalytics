@@ -1,4 +1,4 @@
-FROM infracamp/kickstart-flavor-base:testing
+FROM infracamp/kickstart-flavor-base
 LABEL maintainer="Matthias Leuffen <m@tth.es>"
 
 ADD / /kickstart
