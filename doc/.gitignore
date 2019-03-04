@@ -4,6 +4,8 @@
 
 /.rstudio/
 /.idea/
+/.DS_store
+/venv/
 
 
 

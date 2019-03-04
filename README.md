@@ -28,6 +28,8 @@ Document Index:
 - Download and execute [`kickstart.sh`](https://infracamp.org/getting-started/) - let it create an empty .kick.yml
 - Change `from:`-Line in `.kick.yml` to `infracamp/kickstart-flavor-datalytics`
 - Create a `.gitignore` from [this preset](doc/.gitignore)
+- Setup a python3 **virtualenv** [see howto on infracamp/kickstart-flavor-py3](https://github.com/infracamp/kickstart-flavor-py3)
+
 
 
 
