@@ -18,3 +18,4 @@ echo "| RStudio on port 4200 (http://localhost:4200)"
 
 sudo -E -s -u user /usr/lib/rstudio-server/bin/rserver --server-daemonize=0 --server-working-dir=/opt --auth-minimum-user-id=100 --server-user=user --auth-validate-users=0 &> /var/log/rserver.log &
 
+
