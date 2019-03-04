@@ -9,7 +9,7 @@ set -e
 
 apt-get -y update
 apt-get -y install python3 python3-pip jupyter r-base  gdebi-core
-pip3 install pylint flask
+pip3 install pylint flask virtualenv
 
 
 
