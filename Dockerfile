@@ -9,3 +9,4 @@ RUN chmod -R 755 /kickstart && /kickstart/flavor/flavor-build.sh && rm -R /var/l
 #ENTRYPOINT ["/bin/bash"]
 
 ENTRYPOINT ["/kickstart/flavorkit/scripts/start.sh"]
+
