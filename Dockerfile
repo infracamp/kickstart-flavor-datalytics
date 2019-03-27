@@ -1,12 +1,10 @@
 FROM infracamp/kickstart-flavor-base:testing
 LABEL maintainer="Matthias Leuffen <m@tth.es>"
 
+# Set from hub.docker.com
+ENV IMAGE_NAME "${IMAGE_NAME}"
+
 ADD / /kickstart
-RUN chmod -R 755 /kickstart && /kickstart/flavor/flavor-build.sh && rm -R /var/lib/apt/lists
+RUN chmod -R 755 /kickstart && /kickstart/flavor/flavor-build.sh
 
-
-# Use for debugging:
-#ENTRYPOINT ["/bin/bash"]
-
-ENTRYPOINT ["/kickstart/flavorkit/scripts/start.sh"]
 
