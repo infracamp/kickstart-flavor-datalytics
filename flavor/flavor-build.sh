@@ -22,7 +22,6 @@ curl -o /tmp/rstudio-server.deb https://download2.rstudio.org/rstudio-server-1.1
 gdebi -n /tmp/rstudio-server.deb
 rm /tmp/rstudio-server.deb
 
-
 ## Workaround of apparmor bug:
 echo "server-app-armor-enabled=0" >> /etc/rstudio/rserver.conf
 echo "www-address=0.0.0.0"   >> /etc/rstudio/rserver.conf
