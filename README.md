@@ -20,7 +20,12 @@ Document Index:
 
 - *R 3.4.4*
 - *Python 3.6.7*
+    - [Scikit-learn](https://scikit-learn.org/stable/)
+    - [SciPy](https://www.scipy.org/)
+    - [Matplotlib](https://matplotlib.org/)
+    - [Seaborn](https://seaborn.pydata.org/)
 - *Flask*
+
 
 ## Creating a new Project
 
