@@ -3,6 +3,9 @@
 
 see (http://github.com/infracamp/kickstart) for more information.
 
+
+**This is an experimental container - use with care!**
+
 Document Index:
 
 - [Development Guide for this flavor](DEVELOPMENT.md)
@@ -16,16 +19,16 @@ Document Index:
 | Package               | Url                                              |
 |-----------------------|--------------------------------------------------|
 | **Jupyter**           | [http://localhost:4000](http://localhost:4000)   |
+| **SSH remote debug**  | Port 4100                                        |
 | **RStudio Server**    | [http://localhost:4200](http://localhost:4200)   |
 
 - *R 3.4.4*
 - *Python 3.6.7*
-    - [Scikit-learn](https://scikit-learn.org/stable/)
-    - [SciPy](https://www.scipy.org/)
-    - [Matplotlib](https://matplotlib.org/)
-    - [Seaborn](https://seaborn.pydata.org/)
-- *Flask*
 
+
+## Remote debugging
+
+In development mode a ssh port is opened on Port `4100`.
 
 ## Creating a new Project
 
