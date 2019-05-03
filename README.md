@@ -44,6 +44,8 @@ incoming traffic from outside networks.
 
 You need **PyCharm Professional** to enable interpreter over ssh.
 
+> **The container must be running. Run `./kickstart.sh` before going further** 
+
 Go to **File** > **Settings**:
 
 ![Settings1](doc/intellij-debug-settings1.png)
@@ -51,6 +53,9 @@ Go to **File** > **Settings**:
 ![Settings2](doc/intellij-debug-settings2.png)
 
 ![Settings3](doc/intellij-debug-settings3.png)
+
+![Settings4](doc/intellij-debug-settings4.png)
+
 
 Make sure that *Automatically upload files to server* is turned **off** and *path mapping* of your Project directory
 links to **`/opt`** and python interpreter is set to python**3**
