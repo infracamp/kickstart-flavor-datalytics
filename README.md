@@ -19,16 +19,12 @@ Document Index:
 | Package               | Url                                              |
 |-----------------------|--------------------------------------------------|
 | **Jupyter**           | [http://localhost:4000](http://localhost:4000)   |
-| **SSH remote debug**  | Port 4100                                        |
+| **SSH remote debug**  | Port 4100 (User: 'user', no password)            |
 | **RStudio Server**    | [http://localhost:4200](http://localhost:4200)   |
 
 - *R 3.4.4*
 - *Python 3.6.7*
 
-
-## Remote debugging
-
-In development mode a ssh port is opened on Port `4100`.
 
 ## Creating a new Project
 
@@ -39,7 +35,23 @@ In development mode a ssh port is opened on Port `4100`.
 - Setup a python3 **virtualenv** [see howto on infracamp/kickstart-flavor-py3](https://github.com/infracamp/kickstart-flavor-py3)
 
 
+## Remote debugging
 
+In development mode a ssh port is opened on Port `4100`.
 
+### PyCharm Debugging / Source control
+
+You need **PyCharm Professional** to enable Source control via ssh.
+
+Go to **File** > **Settings**:
+
+![Settings1](doc/intellij-debug-settings1.png)
+
+![Settings2](doc/intellij-debug-settings2.png)
+
+![Settings3](doc/intellij-debug-settings3.png)
+
+Make sure that *Automatically upload files to server* is turned **off** and *path mapping* of your Project directory
+links to **`/opt`** and python interpreter is set to python**3**
 
 
