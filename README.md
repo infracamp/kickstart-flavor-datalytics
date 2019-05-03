@@ -37,11 +37,12 @@ Document Index:
 
 ## Remote debugging
 
-In development mode a ssh port is opened on Port `4100`.
+In development mode a ssh port is opened on Port `4100`. This port should be blocked in your firewall for
+incoming traffic from outside networks.
 
 ### PyCharm Debugging / Source control
 
-You need **PyCharm Professional** to enable Source control via ssh.
+You need **PyCharm Professional** to enable interpreter over ssh.
 
 Go to **File** > **Settings**:
 
