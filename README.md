@@ -61,3 +61,16 @@ Make sure that *Automatically upload files to server* is turned **off** and *pat
 links to **`/opt`** and python interpreter is set to python**3**
 
 
+### Using VENV with jupyter notebook
+
+Just add the path to your venv to <kbd>.kick.yml</kbd>:
+
+```yaml
+env:
+  VIRTUAL_ENV: /opt/venv
+  PATH: "/opt/venv/bin:$PATH" 
+```
+
+The kernel will be configured according to these settings. **Make sure `ipykernel` is installed
+in your venv.**
+

@@ -9,7 +9,8 @@ then
     echo "=========== Kickstart Datalytics ==============="
     echo "| JUPYTER on port 4000 (http://localhost:4000) |"
 
-    sudo -E -s -u user PYTHONPATH=/opt/:$PYTHONPATH jupyter notebook --ip=0.0.0.0 --port=4000 --NotebookApp.token='' &> /var/log/jupyter.log &
+    sudo -E -s -u user python3 -m ipykernel install --user
+    sudo -E -s -u user PYTHONPATH=/opt/:$PYTHONPATH jupyter notebook --ip=0.0.0.0 --port=4000 --NotebookApp.token='' --notebook-dir=/opt &> /var/log/jupyter.log &
 
     echo "| Remote debuggging on Port 4100 (SSH)"
 

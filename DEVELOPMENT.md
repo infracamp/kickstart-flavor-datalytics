@@ -18,3 +18,9 @@ Logging:
 ```
 sudo /usr/lib/rstudio-server/bin/rserver --server-daemonize=0
 ```
+
+
+
+## Jupyter Notebook with venv
+
+- Activate the venv by setting the PATH and VIRTUAL_ENV
